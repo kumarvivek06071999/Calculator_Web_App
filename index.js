@@ -10,7 +10,7 @@ app.get('/catering',(req,res)=>{
 })
 app.get('/',(req,res)=>{
   // res.send('working')
-  res.sendFile(__dirname + '/calculator.html')
+  res.sendFile('E:\WebDev\Server\Frontend\index.html')
 })
 
 app.post('/calculator',(req,res)=>{
